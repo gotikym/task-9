@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 internal class Program
 {
@@ -9,7 +9,7 @@ internal class Program
         Console.Write("Сколько раз стоит об этом сообщить? :  ");
         int quantityRepeatMessage = Convert.ToInt32(Console.ReadLine());
 
-        while (quantityRepeatMessage-- > 0)
+        for (int i=0; i< quantityRepeatMessage; i++)
         {
             Console.WriteLine(userMessage);
         }
