@@ -7,9 +7,9 @@ internal class Program
         Console.Write("Введите то, что хотите донести до всех: ");
         string userMessage = Console.ReadLine();
         Console.Write("Сколько раз стоит об этом сообщить? :  ");
-        int quantityRepeat = Convert.ToInt32(Console.ReadLine());
+        int quantityRepeatMessage = Convert.ToInt32(Console.ReadLine());
 
-        while (quantityRepeat-- > 0)
+        while (quantityRepeatMessage-- > 0)
         {
             Console.WriteLine(userMessage);
         }
